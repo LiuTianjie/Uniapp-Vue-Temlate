@@ -1,0 +1,65 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+      "^cn-(.*)": "@/components/cn-$1/cn-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/tabbar/tabbar1"
+    },
+    {
+      "path": "pages/tabbar/tabbar2"
+    },
+    {
+      "path": "pages/tabbar/tabbar3"
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar1",
+        "text": "tabbar1",
+        "iconfont": {
+          "text": "\ue102",
+          "selectedText": "\ue103",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar2",
+        "text": "tabbar2",
+        "iconfont": {
+          "text": "\ue102",
+          "selectedText": "\ue103",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar3",
+        "text": "tabbar3",
+        "iconfont": {
+          "text": "\ue102",
+          "selectedText": "\ue103",
+          "fontSize": "17px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        }
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Uniapp-Vue-Template",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "uniIdRouter": {}
+}
